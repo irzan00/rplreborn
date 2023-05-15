@@ -72,5 +72,5 @@ section {
 .section_title2 {
   color: var(--primary-color);
   font-weight: 400;
-  margin-top: -20px;
+  margin-bottom: 20px;
 }

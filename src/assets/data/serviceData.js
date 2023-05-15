@@ -1,50 +1,61 @@
+import catAtasan from "../images/pakaianatas.png";
+import catBawahan from "../images/pakaianbawah.png";
+import catBuah from "../images/buah.png";
+import catPupuk from "../images/bakery.png";
+import catAksesoris from "../images/aksesoris.png";
+import catBenih from "../images/benih.png";
+import catRempah from "../images/rempah.png";
+import catSayur from "../images/sayuran.png";
+import catInovasi from "../images/inovasi.png";
+import catToga from "../images/toga.png"
+
 const serviceData = [
   {
-    icon: "ri-truck-line",
-    title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    icon: catAtasan,
+    title: "Pakaian Atas",
+    subtitle: "Officially product of IPB University",
     bg: "#fdefe6",
   },
   {
-    icon: "ri-refresh-line",
-    title: "Easy Returns",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    icon: catBawahan,
+    title: "Pakaian Bawah",
+    subtitle: "Officially product of IPB University",
     bg: "#ceebe9",
   },
   {
-    icon: "ri-secure-payment-line",
-    title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    icon: catToga,
+    title: "Toga",
+    subtitle: "Toga Wisuda IPB University",
     bg: "#e2f2b2",
   },
   {
-    icon: "ri-exchange-dollar-line",
-    title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    icon: catBuah,
+    title: " Buah-buahan",
+    subtitle: "Fresh and Healthy",
     bg: "#d6e5fb",
   },
   {
-    icon: "ri-truck-line",
-    title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    icon: catSayur,
+    title: "Sayur-sayuran",
+    subtitle: "Fresh and Healthy",
     bg: "#fdefe6",
   },
   {
-    icon: "ri-refresh-line",
-    title: "Easy Returns",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    icon: catRempah,
+    title: "Rempah-rempah",
+    subtitle: "From IPB University Agricultural",
     bg: "#ceebe9",
   },
   {
-    icon: "ri-secure-payment-line",
-    title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    icon: catPupuk,
+    title: "Aneka Pupuk",
+    subtitle: "From IPB University Agricultural",
     bg: "#e2f2b2",
   },
   {
-    icon: "ri-exchange-dollar-line",
-    title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    icon: catBenih,
+    title: "Aneka Benih",
+    subtitle: "Grow Everyday",
     bg: "#d6e5fb",
   },
 ];
