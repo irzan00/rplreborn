@@ -13,13 +13,13 @@ const serviceData = [
   {
     icon: catAtasan,
     title: "Pakaian Atas",
-    subtitle: "Officially product of IPB University",
+    subtitle: "Officially product of IPB",
     bg: "#fdefe6",
   },
   {
     icon: catBawahan,
     title: "Pakaian Bawah",
-    subtitle: "Officially product of IPB University",
+    subtitle: "Officially product of IPB",
     bg: "#ceebe9",
   },
   {
