@@ -7,7 +7,7 @@ import catBenih from "../images/benih.png";
 import catRempah from "../images/rempah.png";
 import catSayur from "../images/sayuran.png";
 import catInovasi from "../images/inovasi.png";
-import catToga from "../images/toga.png"
+import catToga from "../images/toga.png";
 
 const serviceData = [
   {

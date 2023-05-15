@@ -14,8 +14,7 @@ const ProductCard = ({item}) => {
                 <motion.img whileHover={{scale: 1.1}}src={item.imgUrl} alt="" />
             </div>
             <div className="p-2 product_info">
-                <h3 className="product_name">
-                    <Link to="/shop/id">{item.productName}</Link></h3>
+                <h3 className="product_name"><Link to="../shop/id">{item.productName}</Link></h3>
                 <span className="text-center">{item.category}</span>
             </div>
             <div className="product_card-bottom d-flex align-items-center

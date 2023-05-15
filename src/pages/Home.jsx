@@ -17,9 +17,10 @@ const Home = () => {
   const year = new Date().getFullYear()
 
   useEffect(()=>{
-    const filterdProducts = products.filter((item) => item.category === "kaos"
+    const filterdProducts = products.filter(
+      (item) => item.category === "kaos"
     );
-    setData(filterdProducts)
+    setData(filterdProducts);
   },[]);
   return <Helmet title={'Home'}>
     <section className="hero_section">
