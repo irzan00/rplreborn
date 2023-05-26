@@ -28,13 +28,6 @@ import productImg23 from "../images/wireless-01.png";
 
 import productImg25 from "../images/wireless-03.png";
 
-import imgProduct01 from "../images/ganciipb1.png"
-import imgProduct02 from "../images/bolpenipb.png"
-import imgProduct03 from "../images/noteipb.png"
-import imgProduct04 from "../images/gelangipb.png"
-import imgProduct05 from "../images/termosipb.png"
-import imgProduct06 from "../images/goodiebagipb.png"
-
 const products = [
   {
     id: "01",
@@ -284,8 +277,8 @@ const products = [
 
   {
     id: "10",
-    productName: "Gantungan Kunci IPB",
-    imgUrl: imgProduct01,
+    productName: "Apple iPhone 12 Pro",
+    imgUrl: productImg13,
     category: "aksesoris",
     price: 799,
     shortDesc:
@@ -328,8 +321,8 @@ const products = [
   },
   {
     id: "11",
-    productName: "Ballpaint IPB University",
-    imgUrl: imgProduct02,
+    productName: "Apple iPhone 12 Max",
+    imgUrl: productImg14,
     category: "aksesoris",
     price: 799,
     shortDesc:
@@ -351,8 +344,8 @@ const products = [
 
   {
     id: "12",
-    productName: "Notebook IPB University",
-    imgUrl: imgProduct03,
+    productName: "Realme 8",
+    imgUrl: productImg15,
     category: "aksesoris",
     price: 599,
     shortDesc:
@@ -374,8 +367,8 @@ const products = [
 
   {
     id: "13",
-    productName: "Gelang IPB University",
-    imgUrl: imgProduct04,
+    productName: "One Plus Nord",
+    imgUrl: productImg16,
     category: "aksesoris",
     price: 799,
     shortDesc:
@@ -397,8 +390,8 @@ const products = [
 
   {
     id: "14",
-    productName: "Termos IPB University",
-    imgUrl: imgProduct05,
+    productName: "Apple iPhone 13 Pro",
+    imgUrl: productImg17,
     category: "aksesoris",
     price: 899,
     shortDesc:
@@ -420,8 +413,8 @@ const products = [
 
   {
     id: "15",
-    productName: "Goodie Bag IPB University",
-    imgUrl: imgProduct06,
+    productName: "Samsung Galaxy S22",
+    imgUrl: productImg18,
     category: "aksesoris",
     price: 699,
     shortDesc:
