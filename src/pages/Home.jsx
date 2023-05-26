@@ -11,7 +11,7 @@ import ProductList from '../component/UI/ProductList'
 import Clock from '../component/UI/Clock'
 
 
-import counterImg from '../assets/images/counter-timer-img.png'
+import counterImg from '../assets/images/kaostrans.png'
 
 
 const Home = () => {
@@ -117,7 +117,7 @@ const Home = () => {
           <Col lg='6' md='12' className='count_down-col'>
             <div className="clock_top-content">
               <h4 className='text-white fs-6 mb-2'>Limited Offers</h4>
-              <h3 className='text-white fs-5 mb-3'>Quality Armchair</h3>
+              <h3 className='text-white fs-5 mb-3'>Kaos IPB University 1963</h3>
             </div>
             <Clock/>
             <motion.button whileHover={{scale: 1.2}}className='buy_btn store_btn'>
