@@ -7,10 +7,10 @@ import productImg05 from "../images/kaostrustme.jpg";
 import productImg06 from "../images/kaoskuning.jpg";
 import productImg007 from "../images/jaslabipb.jpg";
 
-import productImg07 from "../images/togawisuda.jpg";
+import productImg07 from "../images/notesA5.jpg";
 import productImg08 from "../images/noteipb.jpg";
 import productImg09 from "../images/bolpenipb.png";
-import productImg10 from "../images/arm-chair-01.jpg";
+import productImg10 from "../images/lanyardipb.jpg";
 
 import productImg13 from "../images/termosipb.jpg";
 import productImg14 from "../images/tumbleripb.jpg";
@@ -26,9 +26,10 @@ import productImg22 from "../images/tepungjagung.jpg";
 import productImg26 from "../images/madukulitmanggis.jpg";
 import productImg27 from "../images/kapsultemulawak.jpg";
 
-import productImg23 from "../images/wireless-01.png";
-
-import productImg25 from "../images/wireless-03.png";
+import productImg23 from "../images/keripiktalas.jpg";
+import productImg25 from "../images/keripiklumpia.jpg";
+import productImg28 from "../images/rotiboycoklat.jpg";
+import productImg29 from "../images/rotiboykeju.jpg";
 
 const products = [
   {
@@ -187,10 +188,10 @@ const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armalat tulis",
+    productName: "Notebook A5 IPB University",
     imgUrl: productImg07,
     category: "alat tulis",
-    price: 99,
+    price: 46000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -210,10 +211,10 @@ const products = [
 
   {
     id: "27",
-    productName: "Modern Arm pakaian",
+    productName: "Jaslab IPB University",
     imgUrl: productImg007,
     category: "pakaian",
-    price: 173,
+    price: 89000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -233,10 +234,10 @@ const products = [
 
   {
     id: "08",
-    productName: "Baltsar alat tulis",
+    productName: "Notebook IPB University",
     imgUrl: productImg08,
     category: "alat tulis",
-    price: 89,
+    price: 41000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -256,10 +257,10 @@ const products = [
 
   {
     id: "09",
-    productName: "Helmar alat tulis",
+    productName: "Ballpaint IPB University",
     imgUrl: productImg09,
     category: "alat tulis",
-    price: 112,
+    price: 14000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -301,10 +302,10 @@ const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armalat tulis",
+    productName: "Lanyard IPB University",
     imgUrl: productImg10,
     category: "alat tulis",
-    price: 99,
+    price: 18000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -576,10 +577,10 @@ const products = [
 
   {
     id: "20",
-    productName: "Beat Studio makanan",
+    productName: "Keripik Talas",
     imgUrl: productImg23,
     category: "makanan",
-    price: 199,
+    price: 20000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -599,10 +600,56 @@ const products = [
 
   {
     id: "22",
-    productName: "Beat EP Headphones",
+    productName: "Keripik Lumpia",
     imgUrl: productImg25,
     category: "makanan",
-    price: 199,
+    price: 20000,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+
+  {
+    id: "28",
+    productName: "Roti Boy Coklat",
+    imgUrl: productImg28,
+    category: "makanan",
+    price: 4000,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+
+  {
+    id: "29",
+    productName: "Roti Boy Keju",
+    imgUrl: productImg29,
+    category: "makanan",
+    price: 4000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
