@@ -26,23 +26,23 @@ const Home = () => {
 
   useEffect(() => {
     const filteredTrendingProducts = products.filter(
-      (item) => item.category ==='chair'
+      (item) => item.category ==='pakaian'
     );
 
     const filteredBestSalesProducts = products.filter(
-      (item) => item.category ==='sofa'
+      (item) => item.category ==='alat tulis'
     );
 
     const filteredMobileProducts = products.filter(
-      (item) => item.category ==='mobile'
+      (item) => item.category ==='aksesoris'
     );
 
     const filteredWirelessProducts = products.filter(
-      (item) => item.category ==='wireless'
+      (item) => item.category ==='produk ipb'
     );
 
     const filteredPopularProducts = products.filter(
-      (item) => item.category ==='watch'
+      (item) => item.category ==='makanan'
     );
 
     setTrendingProducts(filteredTrendingProducts);

@@ -28,12 +28,19 @@ import productImg23 from "../images/wireless-01.png";
 
 import productImg25 from "../images/wireless-03.png";
 
+import imgProduct01 from "../images/ganciipb1.png"
+import imgProduct02 from "../images/bolpenipb.png"
+import imgProduct03 from "../images/noteipb.png"
+import imgProduct04 from "../images/gelangipb.png"
+import imgProduct05 from "../images/termosipb.png"
+import imgProduct06 from "../images/goodiebagipb.png"
+
 const products = [
   {
     id: "01",
     productName: "Stone and Beam Westview ",
     imgUrl: productImg01,
-    category: "sofa",
+    category: "pakaian",
     price: 193,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -52,7 +59,7 @@ const products = [
     id: "02",
     productName: "Rivet Bigelow Modern ",
     imgUrl: productImg02,
-    category: "sofa",
+    category: "pakaian",
     price: 253,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -73,9 +80,9 @@ const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Amazon Brand Modern pakaian",
     imgUrl: productImg03,
-    category: "sofa",
+    category: "pakaian",
     price: 173,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -97,7 +104,7 @@ const products = [
     id: "26",
     productName: "Rivet Bigelow Modern ",
     imgUrl: productImg02,
-    category: "sofa",
+    category: "pakaian",
     price: 253,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -117,9 +124,9 @@ const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Fllufy Sheep pakaian",
     imgUrl: productImg04,
-    category: "sofa",
+    category: "pakaian",
     price: 163,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -140,9 +147,9 @@ const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Faux Velvet pakaian",
     imgUrl: productImg05,
-    category: "sofa",
+    category: "pakaian",
     price: 163,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -163,9 +170,9 @@ const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Fllufy Sheep pakaian",
     imgUrl: productImg06,
-    category: "sofa",
+    category: "pakaian",
     price: 163,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -185,9 +192,9 @@ const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Sakarias Armalat tulis",
     imgUrl: productImg07,
-    category: "chair",
+    category: "alat tulis",
     price: 99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -208,9 +215,9 @@ const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Modern Arm pakaian",
     imgUrl: productImg007,
-    category: "sofa",
+    category: "pakaian",
     price: 173,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -231,9 +238,9 @@ const products = [
 
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Baltsar alat tulis",
     imgUrl: productImg08,
-    category: "chair",
+    category: "alat tulis",
     price: 89,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -254,9 +261,9 @@ const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Helmar alat tulis",
     imgUrl: productImg09,
-    category: "chair",
+    category: "alat tulis",
     price: 112,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -277,9 +284,9 @@ const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
-    imgUrl: productImg13,
-    category: "mobile",
+    productName: "Gantungan Kunci IPB",
+    imgUrl: imgProduct01,
+    category: "aksesoris",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -299,9 +306,9 @@ const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Sakarias Armalat tulis",
     imgUrl: productImg10,
-    category: "chair",
+    category: "alat tulis",
     price: 99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -321,9 +328,9 @@ const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
-    imgUrl: productImg14,
-    category: "mobile",
+    productName: "Ballpaint IPB University",
+    imgUrl: imgProduct02,
+    category: "aksesoris",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -344,9 +351,9 @@ const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
-    imgUrl: productImg15,
-    category: "mobile",
+    productName: "Notebook IPB University",
+    imgUrl: imgProduct03,
+    category: "aksesoris",
     price: 599,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -367,9 +374,9 @@ const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
-    imgUrl: productImg16,
-    category: "mobile",
+    productName: "Gelang IPB University",
+    imgUrl: imgProduct04,
+    category: "aksesoris",
     price: 799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -390,9 +397,9 @@ const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
-    imgUrl: productImg17,
-    category: "mobile",
+    productName: "Termos IPB University",
+    imgUrl: imgProduct05,
+    category: "aksesoris",
     price: 899,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -413,9 +420,9 @@ const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
-    imgUrl: productImg18,
-    category: "mobile",
+    productName: "Goodie Bag IPB University",
+    imgUrl: imgProduct06,
+    category: "aksesoris",
     price: 699,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -436,9 +443,9 @@ const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "Rolex produk ipb",
     imgUrl: productImg19,
-    category: "watch",
+    category: "produk ipb",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -459,9 +466,9 @@ const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "Timex Easy Reader produk ipb",
     imgUrl: productImg20,
-    category: "watch",
+    category: "produk ipb",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -482,9 +489,9 @@ const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "Rolex produk ipb",
     imgUrl: productImg21,
-    category: "watch",
+    category: "produk ipb",
     price: 299,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -505,9 +512,9 @@ const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "Apple produk ipb",
     imgUrl: productImg22,
-    category: "watch",
+    category: "produk ipb",
     price: 399,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -528,9 +535,9 @@ const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "Beat Studio makanan",
     imgUrl: productImg23,
-    category: "wireless",
+    category: "makanan",
     price: 199,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -553,7 +560,7 @@ const products = [
     id: "22",
     productName: "Beat EP Headphones",
     imgUrl: productImg25,
-    category: "wireless",
+    category: "makanan",
     price: 199,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
