@@ -7,7 +7,8 @@ import productImg05 from "../images/kaostrustme.jpg";
 import productImg06 from "../images/kaoskuning.jpg";
 import productImg007 from "../images/jaslabipb.jpg";
 
-import productImg07 from "../images/notesA5.jpg";
+import productImg07 from "../images/togawisuda.jpg";
+import productImg008 from "../images/notesA5.jpg";
 import productImg08 from "../images/noteipb.jpg";
 import productImg09 from "../images/bolpenipb.png";
 import productImg10 from "../images/lanyardipb.jpg";
@@ -189,7 +190,7 @@ const products = [
   {
     id: "07",
     productName: "Notebook A5 IPB University",
-    imgUrl: productImg07,
+    imgUrl: productImg008,
     category: "alat tulis",
     price: 46000,
     shortDesc:
@@ -488,7 +489,7 @@ const products = [
     productName: "Tepung Bumbu Gluten-free",
     imgUrl: productImg21,
     category: "produk ipb",
-    price: 299,
+    price: 45000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -511,7 +512,7 @@ const products = [
     productName: "Tepung Jagung",
     imgUrl: productImg22,
     category: "produk ipb",
-    price: 399,
+    price: 35000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
