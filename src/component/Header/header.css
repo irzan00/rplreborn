@@ -47,7 +47,7 @@
     cursor: pointer;
 }
 
-.cart-icon, 
+.cart_icon, 
 .fav_icon {
     position: relative;
 }
