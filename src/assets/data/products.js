@@ -8,19 +8,19 @@ import productImg06 from "../images/single-sofa-03.jpg";
 import productImg007 from "../images/single-sofa-04.png";
 
 import productImg07 from "../images/arm-chair-01.jpg";
-import productImg08 from "../images/arm-chair-02.jpg";
-import productImg09 from "../images/arm-chair-03.jpg";
+import productImg08 from "../images/noteipb.jpg";
+import productImg09 from "../images/bolpenipb.png";
 import productImg10 from "../images/arm-chair-01.jpg";
 
-import productImg13 from "../images/phone-01.jpg";
-import productImg14 from "../images/phone-02.jpg";
-import productImg15 from "../images/phone-03.png";
-import productImg16 from "../images/phone-04.jpg";
-import productImg17 from "../images/phone-05.jpg";
-import productImg18 from "../images/phone-06.jpg";
+import productImg13 from "../images/termosipb.jpg";
+import productImg14 from "../images/tumbleripb.jpg";
+import productImg15 from "../images/ganciipb.jpg";
+import productImg16 from "../images/gelangipb.jpg";
+import productImg17 from "../images/totebagipb.jpg";
+import productImg18 from "../images/payungipb.jpg";
 
-import productImg19 from "../images/watch-01.jpg";
-import productImg20 from "../images/watch-02.jpg";
+import productImg19 from "../images/jahemerah.jpg";
+import productImg20 from "../images/kejugoreng.jpg";
 import productImg21 from "../images/watch-03.jpg";
 import productImg22 from "../images/watch-04.jpg";
 
@@ -277,10 +277,10 @@ const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Termos IPB University",
     imgUrl: productImg13,
     category: "aksesoris",
-    price: 799,
+    price: 84000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -321,10 +321,10 @@ const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Tumbler IPB University",
     imgUrl: productImg14,
     category: "aksesoris",
-    price: 799,
+    price: 59000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -344,10 +344,10 @@ const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Gantungan Kunci IPB",
     imgUrl: productImg15,
     category: "aksesoris",
-    price: 599,
+    price: 17000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -367,10 +367,10 @@ const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Gelang IPB University",
     imgUrl: productImg16,
     category: "aksesoris",
-    price: 799,
+    price: 19000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -390,10 +390,10 @@ const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Totebag IPB University",
     imgUrl: productImg17,
     category: "aksesoris",
-    price: 899,
+    price: 39000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -413,10 +413,10 @@ const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Payung IPB University",
     imgUrl: productImg18,
     category: "aksesoris",
-    price: 699,
+    price: 119000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -436,10 +436,10 @@ const products = [
 
   {
     id: "16",
-    productName: "Rolex produk ipb",
+    productName: "Jahe Merah Gula Aren",
     imgUrl: productImg19,
     category: "produk ipb",
-    price: 299,
+    price: 37000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -459,10 +459,10 @@ const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader produk ipb",
+    productName: "Kripik Keju Goreng",
     imgUrl: productImg20,
     category: "produk ipb",
-    price: 299,
+    price: 27000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
