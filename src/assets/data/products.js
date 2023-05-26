@@ -1,13 +1,13 @@
-import productImg01 from "../images/double-sofa-01.png";
-import productImg02 from "../images/double-sofa-02.png";
-import productImg03 from "../images/double-sofa-03.png";
+import productImg01 from "../images/kaos-1963.png";
+import productImg02 from "../images/kaosrusapanjang.jpg";
+import productImg03 from "../images/kaosputih.jpg";
 
-import productImg04 from "../images/single-sofa-01.jpg";
-import productImg05 from "../images/single-sofa-02.jpg";
-import productImg06 from "../images/single-sofa-03.jpg";
-import productImg007 from "../images/single-sofa-04.png";
+import productImg04 from "../images/kaoshitam.jpg";
+import productImg05 from "../images/kaostrustme.jpg";
+import productImg06 from "../images/kaoskuning.jpg";
+import productImg007 from "../images/jaslabipb.jpg";
 
-import productImg07 from "../images/arm-chair-01.jpg";
+import productImg07 from "../images/togawisuda.jpg";
 import productImg08 from "../images/noteipb.jpg";
 import productImg09 from "../images/bolpenipb.png";
 import productImg10 from "../images/arm-chair-01.jpg";
@@ -21,8 +21,10 @@ import productImg18 from "../images/payungipb.jpg";
 
 import productImg19 from "../images/jahemerah.jpg";
 import productImg20 from "../images/kejugoreng.jpg";
-import productImg21 from "../images/watch-03.jpg";
-import productImg22 from "../images/watch-04.jpg";
+import productImg21 from "../images/tepungbumbu.jpg";
+import productImg22 from "../images/tepungjagung.jpg";
+import productImg26 from "../images/madukulitmanggis.jpg";
+import productImg27 from "../images/kapsultemulawak.jpg";
 
 import productImg23 from "../images/wireless-01.png";
 
@@ -31,10 +33,10 @@ import productImg25 from "../images/wireless-03.png";
 const products = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "Kaos IPB 1963 Pendek",
     imgUrl: productImg01,
     category: "pakaian",
-    price: 193,
+    price: 89000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -50,10 +52,10 @@ const products = [
 
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Kaos IPB Rusa Panjang",
     imgUrl: productImg02,
     category: "pakaian",
-    price: 253,
+    price: 99000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -73,10 +75,10 @@ const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern pakaian",
+    productName: "Kaos Putih IPBNESIAN",
     imgUrl: productImg03,
     category: "pakaian",
-    price: 173,
+    price: 89000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -94,11 +96,11 @@ const products = [
     avgRating: 4.7,
   },
   {
-    id: "26",
-    productName: "Rivet Bigelow Modern ",
-    imgUrl: productImg02,
+    id: "07",
+    productName: "Toga Wisuda IPB University",
+    imgUrl: productImg07,
     category: "pakaian",
-    price: 253,
+    price: 259000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -117,10 +119,10 @@ const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep pakaian",
+    productName: "Kaos Hitam IPB University",
     imgUrl: productImg04,
     category: "pakaian",
-    price: 163,
+    price: 89000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -140,10 +142,10 @@ const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet pakaian",
+    productName: "Kaos IPB Trustme",
     imgUrl: productImg05,
     category: "pakaian",
-    price: 163,
+    price: 89000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -163,10 +165,10 @@ const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep pakaian",
+    productName: "Kaos Panjang IPB 1993",
     imgUrl: productImg06,
     category: "pakaian",
-    price: 163,
+    price: 99000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -482,7 +484,7 @@ const products = [
 
   {
     id: "18",
-    productName: "Rolex produk ipb",
+    productName: "Tepung Bumbu Gluten-free",
     imgUrl: productImg21,
     category: "produk ipb",
     price: 299,
@@ -505,10 +507,56 @@ const products = [
 
   {
     id: "19",
-    productName: "Apple produk ipb",
+    productName: "Tepung Jagung",
     imgUrl: productImg22,
     category: "produk ipb",
     price: 399,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+
+  {
+    id: "26",
+    productName: "Madu Kulit Manggis",
+    imgUrl: productImg26,
+    category: "produk ipb",
+    price: 129000,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+
+  {
+    id: "18",
+    productName: "Kapsul Temu Lawak",
+    imgUrl: productImg27,
+    category: "produk ipb",
+    price: 79000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
